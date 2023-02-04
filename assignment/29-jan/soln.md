@@ -1,6 +1,4 @@
-
-
-## Assignment Questions 
+## 29 Jan Assignment Solution 
 1. Who developed Python Programming Language?
     * It was created by Guido van Rossum and first released in the year 1991.
 
