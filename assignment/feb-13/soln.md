@@ -1,9 +1,11 @@
+## 13 Feb Assignment Solution 
+
 Q1. Explain why we have to use the Exception class while creating a Custom Exception.
 Note: Here Exception class refers to the base class for all the exceptions.
 
 * Exceptions need to be derived from the Exception class, either directly or indirectly. 
 * Instead of creating own exception class from scratch it's better to inherit all the feature available in the parent Exception class
-
+* When creating a custom exception in Python, it is best practice to inherit from the built-in Exception class or one of its subclasses. This is because the Exception class provides a standard interface and behavior for exceptions, and includes many helpful methods and attributes for handling and reporting errors. 
 
 
 
