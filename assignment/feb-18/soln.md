@@ -1,7 +1,6 @@
 ## 18 Feb Assignment Solution 
 
 ### Q1. What is an API? Give an example, where an API is used in real life.
-
 API stands for `Application Programming Interface`.
 Its a software interface that allows `two applications to interact` with each other without any user intervention.
 
@@ -15,7 +14,6 @@ Usage
 
 
 ### Q2. Give advantages and disadvantages of using API. 
-
 * Advantages
   * Increased Visibility and Traffic
   * Seamless Integration
@@ -26,7 +24,6 @@ Usage
   * Limited Functionality
   * Dependency on Third Party Services
   * Security and Privacy Risks
-
 
 
 ### Q3. What is a Web API? Differentiate between API and Web API.
