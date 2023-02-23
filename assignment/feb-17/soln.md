@@ -53,6 +53,7 @@ collection = db['Products']
 d = {'companyName': 'pwskills',
      'product': 'Affordable AI',
      'courseOffered': 'Machine Learning with Deployment'}
+     
 rec = collection.insert_one(d)
 
 list_of_records = [

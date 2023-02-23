@@ -1,0 +1,8 @@
+INFO:root:name
+INFO:root:rating
+INFO:root:No Comment Heading
+INFO:root:'NoneType' object has no attribute 'div'
+INFO:root:Total no of reviews found for laptop - 11
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2023 18:55:28] "POST /review HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2023 18:55:28] "[33mGET /style.css HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [23/Feb/2023 18:55:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -

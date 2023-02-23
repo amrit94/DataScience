@@ -2,11 +2,11 @@
 
 ### Render HTML
 * `render_template('results.html' , result = result)`
-* All HTML files goes inside `templates folder`
+* All HTML files goes inside `templates` folder
 
 ### Load static files
 * `href="{{ url_for('static', filename='css/style.css') }}`
-* ``
+* `project_folder > static > css > css_files`
 
 
 ### Run App
