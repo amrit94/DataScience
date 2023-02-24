@@ -31,7 +31,7 @@ def get_reviews_from_html(flipkart_html, searchString):
             #name.encode(encoding='utf-8')
             name = commentbox.div.div.find_all('p', {'class': '_2sc7ZR _2V5EHH'})[0].text
         except:
-            name = "name"
+            name="name"
 
         try:
             #rating.encode(encoding='utf-8')
@@ -54,6 +54,7 @@ def get_reviews_from_html(flipkart_html, searchString):
         mydict = {"Product": searchString, "Name": name, "Rating": rating, "CommentHead": commentHead,
                     "Comment": custComment}
         reviews.append(mydict)
+    print("Total no of reviews found for {} - {}".format(searchString, len(reviews)-1))
     return reviews
 
 
@@ -81,8 +82,9 @@ def index():
 
             reviews = get_reviews_from_html(flipkart_html, searchString)
             store_data(reviews)
-            return render_template('result.html', reviews=reviews[0:(len(reviews)-1)])
+            return render_template('results.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
+            print(e)
             return 'something is wrong'
     else:
         return render_template('index.html')
