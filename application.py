@@ -7,7 +7,8 @@ import logging
 import pymongo
 
 
-app = Flask(__name__)
+application = Flask(__name__)
+app = application
 
 @app.route("/", methods = ['GET'])
 @cross_origin()
