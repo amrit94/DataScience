@@ -2,6 +2,8 @@
 * Deployed on AWS using
     * Elastic Beanstalk
     * CodePipeline
+* Deployed branch
+    * https://github.com/amrit94/DataScience/tree/tproj-web_scrap_deploy
 
 ### Steps
 1. Push code to github

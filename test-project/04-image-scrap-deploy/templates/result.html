@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Review Page</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+
+</head>
+
+<body>
+
+  <div class="table-users">
+   <div class="header">Images</div>
+    {% for image in image_list %}
+      <img src="{{ url_for('static', filename=image) }}" alt="Girl in a jacket" width="150px" height="150px">
+    {% endfor %}
+</div>
+
+
+
+</body>
+
+</html>
