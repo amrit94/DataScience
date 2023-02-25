@@ -18,5 +18,7 @@ Note: Save all the data scraped in the above questions in a CSV file.
 Create a simple UI with all functionalities mentioned above and deploy it in AWS.
 
 ### SOLUTION
-* CSV File:
-* Deployed APP: 
+* `CSV File`: [https://github.com/amrit94/DataScience/blob/main/test-project/05-scrap-youtube/PW-Foundation.csv](https://github.com/amrit94/DataScience/blob/main/test-project/05-scrap-youtube/PW-Foundation.csv)
+* `Deployed Branch`: [https://github.com/amrit94/DataScience/tree/tproj-youtube_scrap_deploy](https://github.com/amrit94/DataScience/tree/tproj-youtube_scrap_deploy)
+* `Deployed APP`: [https://scrap-youtube.azurewebsites.net/](https://scrap-youtube.azurewebsites.net/)
+    * It takes almost 30/60 seconds to load the deployed app
