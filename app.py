@@ -57,6 +57,8 @@ def index():
                 img_data.append(mydict)
                 with open(os.path.join(save_directory, f"{query}_{image_tags.index(image_tag)}.jpg"), "wb") as f:
                     f.write(image_data)
+
+            # Store image in binary format in MongoDb
             client = pymongo.MongoClient("mongodb+srv://dyamrit:3PVF8bxy4jP1oswe@cluster0.clbgotk.mongodb.net/?retryWrites=true&w=majority")
             db = client['image_scrap']
             review_col = db['image_scrap_data']
