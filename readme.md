@@ -1,4 +1,4 @@
-## Image Scraper Deployment
+## Youtube Scraper Deployment
 
 Deployment Link: https://scrap-youtube.azurewebsites.net
 
