@@ -1,4 +1,4 @@
-## 20 Feb Assignment Solution 
+## 21 Feb Assignment Solution 
 ### Q1. What is Web Scraping? Why is it Used? Give three areas where Web Scraping is used to get data.
 
 Web scraping is an automatic method to obtain large amounts of data from websites.
